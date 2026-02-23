@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Seleccione una de las opciones \n selecciones la opccion que desee \n1 Estudiante \n2.Docente \n3 Técnico IT \n4 Visitante ");
+﻿Console.WriteLine("Seleccione una de las opciones: \n selecciones la opccion que desee \n1 Estudiante \n2.Docente \n3 Técnico IT \n4 Visitante ");
 int option = int.Parse(Console.ReadLine());
 Console.WriteLine("ingrese hora");
 int hora = int.Parse(Console.ReadLine());
