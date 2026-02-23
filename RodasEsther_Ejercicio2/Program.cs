@@ -54,5 +54,30 @@ if (hora >= 0 && hora <= 24 && dia >= 1 && dia <= 7 && carnet == "S" || carnet =
                     Console.WriteLine("Acceso denegado.");
                 }
             break;
+        case 4:
+            Console.WriteLine("Bienvenido Visitante");
+
+            if (hora > 18)
+            {
+                Console.WriteLine("Acceso denegado, el horario ha terminado.");
+            }
+            else if (autorizacion == "N" || acompañado == "N")
+            {
+                Console.WriteLine("Acceso denegado, Requiere autorización y estar acompañado.");
+            }
+            else if (traeUSB == "N")
+            {
+                Console.WriteLine("Acceso denegado, debe de traer USB.");
+            }
+            else
+            {
+                Console.WriteLine("Acceso permitido.");
+            }
+            break;
     }
+
+}
+else
+{
+    Console.WriteLine("Datos no válidos");
 }
