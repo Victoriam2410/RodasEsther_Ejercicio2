@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Seleccione una de las opciones \n selecciones la opccion que desee \n1 Estudiante \n2.Docente \n3 Técnico IT \n4 Visitante ");
+int option = int.Parse(Console.ReadLine());
+Console.WriteLine("ingrese hora");
+int hora = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese dia de la semana");
+int dia = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese carnet vigente (S/N)");
+string carnet = Console.ReadLine();
+Console.WriteLine("Ingrese autorizacion escrita (S/N)");
+string autorizacion = Console.ReadLine();
+Console.WriteLine("Trae usb (S/N)");
+string traeUSB = Console.ReadLine();
+Console.WriteLine("Si trae USB preguntar si está acompañado (S/N)");
+string acompañado = Console.ReadLine();
